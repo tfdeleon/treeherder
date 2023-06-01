@@ -1,6 +1,6 @@
 def chunked_qs(qs, chunk_size=10000, fields=None):
     """
-    Generator to iterate over the given QuerySet, chunk_size rows at a time
+    Generator to iterate over the given QuerySet, chunk_size rows at a time.
 
     Usage:
 
